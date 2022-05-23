@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set global directory
-        run: git config --global --add safe.directory /github/workspace
+        run: git config --global --add safe.directory /github/reforestation
       - uses: actions/checkout@v3
         with:
           persist-credentials: false
